@@ -23,24 +23,14 @@
     </div>
 
     <!-- Dynamic User Reg Buttons -->
-    <?php
-        while (True) {    
-            if (loginCheck()) {
-                ;
-            } else { 
-                ;
-            };
-        };
-    ?>
+    <?php if (loginCheck()===1) {};?>
+    <div class="navbar-nav ml-auto">
+        <form action="login.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Login</button></form>
+        <form action="register.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Register</button></form>
+    </div>
+    <div class="navbar-nav ml-auto">
+        <form action="logout.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Logout</button></form>
+    </div>
 </nav>
+
 <!-- End of Navbar -->
-
-<!-- 
-<div class="navbar-nav ml-auto">
-    <form action="login.php"><button class="btn btn-primary" style="margin-right:10px" type="submit">Login</button></form>
-    <form action="register.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Register</button></form>
-</div>
-
-<div class="navbar-nav ml-auto">
-    <form action="logout.php"><button class="btn btn-primary" style="margin-right:7px" type="submit"></button></form>
-</div> -->
