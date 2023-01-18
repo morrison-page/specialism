@@ -26,9 +26,9 @@
     <?php
         while (True) {    
             if (loginCheck()) {
-                echo '';
+                ;
             } else { 
-                echo '';
+                ;
             };
         };
     ?>
