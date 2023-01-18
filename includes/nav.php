@@ -31,11 +31,11 @@
                     <form action="login.php"><button class="btn btn-primary" style="margin-right:10px" type="submit">Login</button></form>
                     <form action="register.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Register</button></form>
                 </div>
-        <?} else { ?>
+            <?php} else { ?>
                 <div class="navbar-nav ml-auto">
                     <form action="logout.php"><button class="btn btn-primary" style="margin-right:7px" type="submit"></button></form>
                 </div>
-        <? }
+            <?php};
     ?>
 
 
