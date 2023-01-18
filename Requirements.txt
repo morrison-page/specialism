@@ -1,0 +1,16 @@
+Requirements
+
+- Home Page
+- Book a Session (another page for viewing)
+- Resources (Quiz n shii)
+- Progress (Google Charts)
+- Support (Entry Feild for support msg)
+- Contact us (Map, Name, email adress an message, adress)
+- Navbar
+- Login (Dynamic, if logged in dont display)
+- Register (Dynamic, if logged in dont display)
+- Logout (Dynamic, if not logged in dont display)
+- Account Details and password and username change
+
+Completed
+
