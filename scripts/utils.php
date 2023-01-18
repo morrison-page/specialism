@@ -2,8 +2,6 @@
     // User Verification Functions
 
     function loginCheck() {
-        session_start();
-        $_SESSION['loggedin'] = 0;
         if($_SESSION['loggedin']===1) {
             return 1; 
         } elseif($_SESSION['loggedin']===0) {
@@ -14,8 +12,6 @@
     };
 
     function adminCheck() {
-        session_start();
-        $_SESSION['adminCheck'] = 0;
         if ($_SESSION['adminCheck'] === 1) {
             echo 'Hello Admin';
         } elseif ($_SESSION['adminCheck'] === 0) {

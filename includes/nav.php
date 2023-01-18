@@ -4,7 +4,7 @@
     <!-- Logo (Text for now) -->
     <a class="navbar-brand" style="margin-left:7px;" href="index.php">GibJohn Tutoring</a>
     
-    <!-- Misc Boostrap Stuff to get it working -->
+    <!-- Phone Level of Display -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -26,16 +26,15 @@
     <!-- Dynamic User Reg Buttons -->
     <?php       
         if (loginCheck()===0) {
-            echo '<div class="navbar-nav ml-auto">
+            echo '<div class="navbar-nav">
                     <form action="login.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Login</button></form>
                     <form action="register.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Register</button></form>
                 </div>';
         } elseif (loginCheck()===1) {
-            echo '<div class="navbar-nav ml-auto">
-                    <form action="logout.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Logout</button></form>
+            echo '<div class="navbar-nav">
+                    <form action="dashboard.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Dashboard</button></form>
+                    <form action="scripts/logoutScript.php"><button class="btn-danger btn" style="margin-right:7px" type="submit">Logout</button></form>
                 </div>';
-        }else {
-            echo 'Not Workin M8';
         };
     ?>
 </nav>
