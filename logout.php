@@ -11,7 +11,7 @@
     <?php require 'scripts/connect.php'; ?>
 
     <h1>Are you sure you want to logout?</h1>
-    <form action="logout.php"><button class="btn-danger btn">Logout</button></form>
+    <form action="scripts/logoutScript.php"><button class="btn-danger btn">Logout</button></form>
 
     <!-- JS Bootstrap -->
     <?php require 'includes/bootstrapjs.php'; ?>

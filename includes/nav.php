@@ -19,23 +19,24 @@
             <li class="nav-item"><a class="nav-link" href="#">Rewards</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="sessionCheck.php">Session Check</a></li>
         </ul>
     </div>
 
     <!-- Dynamic User Reg Buttons -->
-    <?php 
-        if (loginCheck()===1) {
-         
+    <?php       
+        if (loginCheck()===0) {
+            echo '<div class="navbar-nav ml-auto">
+                    <form action="login.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Login</button></form>
+                    <form action="register.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Register</button></form>
+                </div>';
+        } elseif (loginCheck()===1) {
+            echo '<div class="navbar-nav ml-auto">
+                    <form action="logout.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Logout</button></form>
+                </div>';
+        }else {
+            echo 'Not Workin M8';
         };
     ?>
-
-    <div class="navbar-nav ml-auto">
-        <form action="login.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Login</button></form>
-        <form action="register.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Register</button></form>
-    </div>
-    <div class="navbar-nav ml-auto">
-        <form action="logout.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Logout</button></form>
-    </div>
 </nav>
-
 <!-- End of Navbar -->

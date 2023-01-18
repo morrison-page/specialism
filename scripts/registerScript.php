@@ -30,6 +30,6 @@
         $_SESSION['username'] = $username;
         $_SESSION['loggedin'] = 1;
 
-        header('Location: index.php');
+        header('Location: ../index.php');
     };
 ?>

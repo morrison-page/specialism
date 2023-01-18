@@ -3,23 +3,25 @@
 
     function loginCheck() {
         session_start();
+        $_SESSION['loggedin'] = 0;
         if($_SESSION['loggedin']===1) {
             return 1; 
         } elseif($_SESSION['loggedin']===0) {
             return 0;
         } else {
-            ("Location: login.php");
+            ('Location: login.php');
         };
     };
 
     function adminCheck() {
         session_start();
+        $_SESSION['adminCheck'] = 0;
         if ($_SESSION['adminCheck'] === 1) {
             echo 'Hello Admin';
         } elseif ($_SESSION['adminCheck'] === 0) {
-            header("Location: index.php");
+            header('Location: index.php');
         } else {
-            header("Location: index.php");
+            header('Location: index.php');
         }
     };
 

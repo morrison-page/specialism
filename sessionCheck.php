@@ -12,7 +12,7 @@
 
     <h1>This the Session Checker</h1>
 
-    <?php session_start(); var_dump($_SESSION); ?>
+    <?php var_dump($_SESSION); ?>
 
     <!-- JS Bootstrap -->
     <?php require 'includes/bootstrapjs.php'; ?>
