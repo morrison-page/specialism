@@ -25,7 +25,7 @@
 
     <!-- Dynamic User Reg Buttons -->
     <?php       
-        if (loginCheck()===0) {
+        if (!isset($_SESSION['loggedin'])) {
             echo '<div class="navbar-nav">
                     <form action="login.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Login</button></form>
                     <form action="register.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Register</button></form>
