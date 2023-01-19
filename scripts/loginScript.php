@@ -27,16 +27,16 @@
                 $adminCheck = $row['admin'];
                 if ($adminCheck === 1) {
                     $_SESSION['adminCheck'] = 1;
-                    header('Location: ../index.php');
+                    header('Location: ../dashboard.php');
                 } else {
                     $_SESSION['adminCheck'] = 0;
-                    header("Location: ../index.php ");
+                    header('Location: dashboard.php');
                 };
             } else {
-                echo 'Your username or password was incorrect';
+                $_SESSION['loginErrorMsg'] = 'Incorrect password or username';
             };
         } else {
-            echo 'Your username or password was incorrect';
+            $_SESSION['loginErrorMsg'] = 'Incorrect password or username';
         };
     };
 ?>

@@ -13,6 +13,8 @@
     <div class="container-fluid">
         <div class="card col-4 offset-4">
             <h1 style="color: white; padding-top:20px; padding-left:20px">Login</h1>
+            <!-- Error Message if Login attemp is wrong -->
+            <?php if (isset($_SESSION['loginErrorMsg'])) {echo '<p style="color:red;">'.$_SESSION['loginErrorMsg'].'</p>';};?>
             <form action="scripts/loginScript.php" method="post" class="d-flex justify-content-center form-signin mt-5">
                 <div class="col-md-11">
                     <div class="text-center">
