@@ -4,5 +4,7 @@
     unset($_SESSION['adminCheck']);
     unset($_SESSION['loggedin']);
     unset($_SESSION['username']);
+    unset($_SESSION['loginErrorMsg']);
     header('Location: ../sessionCheck.php');
+    
 ?>

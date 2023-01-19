@@ -14,6 +14,10 @@
 
     <?php var_dump($_SESSION); ?>
 
+    <br>
+
+    <form action="scripts/logoutScript.php"><button class="btn-danger btn" style="margin-right:7px" type="submit">Molest Sessions</button></form>
+
     <!-- JS Bootstrap -->
     <?php require 'includes/bootstrapjs.php'; ?>
 </body>

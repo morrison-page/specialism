@@ -14,11 +14,11 @@
     mysqli_stmt_bind_param($sqlPrep, 's', $username);
     mysqli_stmt_execute($sqlPrep);
     $result = mysqli_stmt_get_result($sqlPrep);
-    
+
     // Starts Verification Process
-    while ($row = mysqli_fetch_assoc($result)){
+    if ($row = mysqli_fetch_assoc($result)){
         $storedPassword = $row['password']; 
-        if (mysqli_num_rows($result) === 1) {
+        if (mysqli_num_rows($result) > 0) {
             if (password_verify($password, $storedPassword)) {
                 session_start();
                 $_SESSION['username'] = $username;
@@ -33,12 +33,14 @@
                     header('Location: ../dashboard.php');
                 };
             } else {
-                $_SESSION['loginErrorMsg'] = "Incorrect password or username";
+                session_start();
+                $_SESSION['loginErrorMsg'] = 'Incorrect password or username';
                 header('Location: ../login.php');
             };
-        } else {
-            $_SESSION['loginErrorMsg'] = "Incorrect password or username";
-            header('Location: ../login.php');
         };
+    } else {
+        session_start();
+        $_SESSION['loginErrorMsg'] = 'Incorrect password or username';
+        header('Location: ../login.php');
     };
 ?>
