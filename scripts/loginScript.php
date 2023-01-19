@@ -30,13 +30,15 @@
                     header('Location: ../dashboard.php');
                 } else {
                     $_SESSION['adminCheck'] = 0;
-                    header('Location: dashboard.php');
+                    header('Location: ../dashboard.php');
                 };
             } else {
-                $_SESSION['loginErrorMsg'] = 'Incorrect password or username';
+                $_SESSION['loginErrorMsg'] = "Incorrect password or username";
+                header('Location: ../login.php');
             };
         } else {
-            $_SESSION['loginErrorMsg'] = 'Incorrect password or username';
+            $_SESSION['loginErrorMsg'] = "Incorrect password or username";
+            header('Location: ../login.php');
         };
     };
 ?>
