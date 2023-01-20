@@ -10,7 +10,8 @@
     <!-- Connection -->
     <?php require 'scripts/connect.php'; ?>
 
-    <div class="container-fluid border d-flex align-items-center mb-3" id="landingHeader">
+    <!-- Content -->
+    <div class="container-fluid d-flex align-items-center mb-3" id="landingHeader">
         <div class="container rounded p-5" id="headerContent">
             <div class="row">
                 <h1>Welcome to Gibjohn!</h1>
