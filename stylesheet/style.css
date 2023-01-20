@@ -4,3 +4,23 @@
     margin-top: 13%;
     width: 32%;
 }
+
+/* Homepage - CSS */
+#landingHeader {
+    height: 50vh;
+    width: 100vw;
+    background-image: url("../images/headerBackground1.jpg");
+    background-size: cover;
+    background-position: center bottom;
+  }
+  
+#landingHeader #headerContent {
+    background-color: rgba(155, 155, 155, 0.466);
+    /* Old colour - rgba(155, 155, 155, 0.466); */
+}
+
+/* Misc - CSS */
+body, html {
+    padding: 0 auto;
+    margin: 0 auto;
+}

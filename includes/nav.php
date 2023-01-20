@@ -14,7 +14,7 @@
         <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Book a Tutor</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Resource</a></li>
+            <li class="nav-item"><a class="nav-link" href="resources.php">Resource</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Progress</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Rewards</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
