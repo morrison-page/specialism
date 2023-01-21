@@ -59,7 +59,7 @@
     </div>
 
     <!-- Footer -->
-    <?php require 'includes/footer.php'; ?>
+    <?php require 'includes/indexFooter.php'; ?>
 
     <!-- JS Bootstrap -->
     <?php require 'includes/bootstrapjs.php'; ?>
