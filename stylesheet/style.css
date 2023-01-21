@@ -20,17 +20,8 @@
 }
 
 /* footer.php - CSS */
-.fixBottom {
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
-}
-
 .footerTextColour {
     color: #c7c8c9;
 }
 
 /* All Pages - CSS */
-body {
-    background-color: #3f474f;
-}
