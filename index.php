@@ -27,7 +27,7 @@
     </div>
 
     <!-- Who We Are -->
-    <div class="container-fluid d-flex mb-5">
+    <div class="container-fluid d-flex mb-3">
         <div class="container">
             <div class="row d-flex align-items-center" id="whoAreWe">
                 <div class="col">
