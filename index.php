@@ -10,7 +10,7 @@
     <!-- Connection -->
     <?php require 'scripts/connect.php'; ?>
 
-    <!-- Content -->
+    <!-- Header -->
     <div class="container-fluid d-flex align-items-center mb-5" id="landingHeader">
         <div class="container rounded p-5" id="headerContent">
             <div class="row">
@@ -25,21 +25,27 @@
             </div>
         </div>
     </div>
-    
+
+    <!-- Who We Are -->
     <div class="container-fluid d-flex">
-        <div class="container" id="mainContent">
+        <div class="container">
             <div class="row d-flex align-items-center" id="whoAreWe">
                 <div class="col">
                     <h1>Who are we?</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum cumque illo dolorum similique itaque laborum voluptatem natus modi ex in.</p>
-                    <a href="about.php" class="btn btn-primary float-start me-1">About us</a>
+                    <a href="about.php" class="btn btn-primary">About us</a>
                 </div>
                 <div class="col">
                     <img src="images/aboutUsImage.jpg" class="rounded img-fluid" alt="Teacher teaching class">
                 </div>
             </div>
-            
-            <div class="row d-flex align-items-center " id="contactUs">
+        </div>
+    </div>
+
+    <!-- Get in Contact -->
+    <div class="container-fluid d-flex">
+        <div class="container">
+            <div class="row d-flex align-items-center" id="contactUs">
                 <div class="col">
                     <img src="images\contactUs.jpg" class="rounded img-fluid" alt="Pile of books" data-pagespeed-url-hash="580512417" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                 </div>
