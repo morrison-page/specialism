@@ -35,12 +35,12 @@
             } else {
                 session_start();
                 $_SESSION['loginErrorMsg'] = 'Incorrect password or username';
-                header('Location: ../login.php');
+                header('Location: ../login');
             };
         };
     } else {
         session_start();
         $_SESSION['loginErrorMsg'] = 'Incorrect password or username';
-        header('Location: ../login.php');
+        header('Location: ../login');
     };
 ?>

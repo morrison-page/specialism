@@ -7,7 +7,7 @@
         } elseif($_SESSION['loggedin']===0) {
             return 0;
         } else {
-            ('Location: login.php');
+            ('Location: login');
         };
     };
 
@@ -15,9 +15,9 @@
         if ($_SESSION['adminCheck'] === 1) {
             echo 'Hello Admin';
         } elseif ($_SESSION['adminCheck'] === 0) {
-            header('Location: index.php');
+            header('Location: index');
         } else {
-            header('Location: index.php');
+            header('Location: index');
         }
     };
 

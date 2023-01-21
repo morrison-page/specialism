@@ -27,8 +27,8 @@
     <?php       
         if (!isset($_SESSION['loggedin'])) {
             echo '<div class="navbar-nav">
-                    <form action="login.php"><button class="btn btn-primary" style="margin-right:4px" type="submit">Login</button></form>
-                    <form action="register.php"><button class="btn btn-primary" style="margin-right:7px" type="submit">Register</button></form>
+                    <form action="login"><button class="btn btn-primary" style="margin-right:4px" type="submit">Login</button></form>
+                    <form action="register"><button class="btn btn-primary" style="margin-right:7px" type="submit">Register</button></form>
                 </div>';
         } elseif (loginCheck()===1) {
             echo '<div class="navbar-nav">

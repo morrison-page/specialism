@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col">
                     <a href="resources" class="btn btn-primary float-start me-1"> View Resources </a>
-                    <a href="viewTutors" class="btn btn-primary flaot-start"> Book a tutor </a>
+                    <a href="bookTutor" class="btn btn-primary flaot-start"> Book a tutor </a>
                 </div>
             </div>
         </div>
