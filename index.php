@@ -19,8 +19,8 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <a href="resources.php" class="btn btn-primary float-start me-1"> View Resources </a>
-                    <a href="viewTutors.php" class="btn btn-primary flaot-start"> Book a tutor </a>
+                    <a href="resources" class="btn btn-primary float-start me-1"> View Resources </a>
+                    <a href="viewTutors" class="btn btn-primary flaot-start"> Book a tutor </a>
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@
                 <div class="col">
                     <h1>Who are we?</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum cumque illo dolorum similique itaque laborum voluptatem natus modi ex in.</p>
-                    <a href="about.php" class="btn btn-primary">About us</a>
+                    <a href="about" class="btn btn-primary">About us</a>
                 </div>
                 <div class="col">
                     <img src="images/aboutUsImage.jpg" class="rounded img-fluid" alt="Teacher teaching class">
@@ -52,7 +52,7 @@
                 <div class="col">
                     <h1>Get in contact</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum cumque illo dolorum similique itaque laborum voluptatem natus modi ex in.</p>
-                    <a href="contact.php" class="btn btn-primary float-start me-1"> Contact us </a>
+                    <a href="contact" class="btn btn-primary float-start me-1"> Contact us </a>
                 </div>
             </div>
         </div>

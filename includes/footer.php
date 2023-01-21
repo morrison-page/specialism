@@ -4,9 +4,9 @@
             <p class="fs-4">GibJohn Tutoring</p>
         </div>
         <div class="col-4 text-center pt-2">
-            <link><a class="m-2" href="index.php">Home</a></link>
-            <link><a class="m-2" href="contact.php">Contact</a></link>
-            <link><a class="m-2" href="support.php">Support</a></link>
+            <link><a class="m-2" href="index">Home</a></link>
+            <link><a class="m-2" href="contact">Contact</a></link>
+            <link><a class="m-2" href="support">Support</a></link>
         </div>
         <div class="col-4 text-center">
             <p class="fs-4">gibjohn@gibjohn.com</p>

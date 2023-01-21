@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" data-bs-theme="dark">
     
     <!-- Logo (Text for now) -->
-    <a class="navbar-brand" style="margin-left:15px;" href="index.php">Gibjohn</a>
+    <a class="navbar-brand" style="margin-left:15px;" href="index">Gibjohn</a>
     
     <!-- Phone Level of Display -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,14 +11,14 @@
     <!-- Navbar Contents -->
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="bookTutor.php">Book Tutor</a></li>
-            <li class="nav-item"><a class="nav-link" href="resources.php">Resource</a></li>
-            <li class="nav-item"><a class="nav-link" href="progress.php">Progress</a></li>
-            <li class="nav-item"><a class="nav-link" href="rewards.php">Rewards</a></li>
-            <li class="nav-item"><a class="nav-link" href="support.php">Support</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="sessionCheck.php">Session Check</a></li>
+            <li class="nav-item"><a class="nav-link" href="index">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="bookTutor">Book Tutor</a></li>
+            <li class="nav-item"><a class="nav-link" href="resources">Resource</a></li>
+            <li class="nav-item"><a class="nav-link" href="progress">Progress</a></li>
+            <li class="nav-item"><a class="nav-link" href="rewards">Rewards</a></li>
+            <li class="nav-item"><a class="nav-link" href="support">Support</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="sessionCheck">Session Check</a></li>
         </ul>
     </div>
 
