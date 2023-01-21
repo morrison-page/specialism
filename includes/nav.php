@@ -17,8 +17,8 @@
             <li class="nav-item"><a class="nav-link" href="resources.php">Resource</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Progress</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Rewards</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="support.php">Support</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
             <li class="nav-item"><a class="nav-link" href="sessionCheck.php">Session Check</a></li>
         </ul>
     </div>
