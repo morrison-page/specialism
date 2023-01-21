@@ -11,9 +11,19 @@
     <?php require 'scripts/connect.php'; ?>
 
     <!-- Content -->
-    <div class="container-fluid">
-        <div class="container">
-            
+    <div class="container-fluid d-flex align-items-center">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col">
+                    <p>Email: gibjohn@gibjohn</p>
+                    <p>Tel: +44 07455 569875</p>
+                    <p>Address: Knightstone Campus, Knightstone Rd, Weston-super-Mare</p>
+                    <p>Postcode: BS23 2AL</p>
+                </div>
+                <div class="col">
+                    <iframe width="450" height="300" style="border:0;" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188997.08177018774!2d-0.18360680569105697!3d51.508924998036534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon!5e0!3m2!1sen!2suk!4v1648731298364!5m2!1sen!2suk"></iframe>
+                </div>
+            </div>
         </div>
     </div>
 

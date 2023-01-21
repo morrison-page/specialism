@@ -12,7 +12,7 @@
     <!-- Login Form -->
     <div class="container-fluid">
         <div class="card col-4 offset-4">
-            <h1 style="color: white; padding-top:20px; text-align:center;">Login</h1>
+            <h1 style="padding-top:20px; text-align:center;">Login</h1>
             <?php if (isset($_SESSION['loginErrorMsg'])) {echo '<p style="color:red; padding-top:20px; text-align:center;">'.$_SESSION['loginErrorMsg'].'</p>'; unset($_SESSION['loginErrorMsg']);}; ?>
             <form action="scripts/loginScript.php" method="post" class="d-flex justify-content-center form-signin mt-5">
                 <div class="col-md-11">
