@@ -11,7 +11,7 @@
     <?php require 'scripts/connect.php'; ?>
 
     <!-- Content -->
-    <h1>Resources</h1>
+    <h1>Progress</h1>
 
     <!-- Footer -->
     <?php require 'includes/footer.php'; ?>
