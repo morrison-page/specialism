@@ -1,4 +1,3 @@
-<!-- Start of Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" data-bs-theme="dark">
     
     <!-- Logo (Text for now) -->
@@ -38,4 +37,3 @@
         };
     ?>
 </nav>
-<!-- End of Navbar -->
