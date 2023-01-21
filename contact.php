@@ -11,7 +11,11 @@
     <?php require 'scripts/connect.php'; ?>
 
     <!-- Content -->
-    <h1>Contact</h1>
+    <div class="container-fluid">
+        <div class="container">
+            
+        </div>
+    </div>
 
     <!-- Footer -->
     <?php require 'includes/footer.php'; ?>
