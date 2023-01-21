@@ -16,25 +16,25 @@
     mysqli_stmt_execute($sqlPrep);
     $result = mysqli_stmt_get_result($sqlPrep);
 
-    if () {
-        if(mysqli_num_rows($result) === 0) {
-            // Make Query and Execute
-            $sql = "INSERT INTO users (username, password, admin) VALUES(?,?,0)";
-            $sqlPrep = mysqli_prepare($conn, $sql);
-            mysqli_stmt_bind_param($sqlPrep, 'ss', $username, $hashedPass);
-            mysqli_stmt_execute($sqlPrep);
-    
-            // Log the user in after register
-            session_start();
-            $_SESSION['username'] = $username;
-            $_SESSION['loggedin'] = 1;
-    
-            header('Location: ../index');
-        } else {
-            session_start();
-            $_SESSION['registerErrorMsg'] = 'Username is not available';
-            header('Location: ../register');
-        };
+    // Empy Feild Check
+    if (empty($username) || empty($password)) {
+        session_start();
+        $_SESSION['registerBlankError'] = 'Please fill in both feilds';
+        header('Location: ../register');
+        exit();
+        
+    } elseif(mysqli_num_rows($result) === 0) {
+        // Make Query and Execute
+        $sql = "INSERT INTO users (username, password, admin) VALUES(?,?,0)";
+        $sqlPrep = mysqli_prepare($conn, $sql);
+        mysqli_stmt_bind_param($sqlPrep, 'ss', $username, $hashedPass);
+        mysqli_stmt_execute($sqlPrep);
+
+        // Log the user in after register
+        session_start();
+        $_SESSION['username'] = $username;
+        $_SESSION['loggedin'] = 1;
+        header('Location: ../index');
     };
 ?>
 
