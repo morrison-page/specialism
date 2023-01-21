@@ -8,11 +8,9 @@
 /* index.php - CSS */
 #landingHeader {
     height: 50vh;
-    width: 100vw;
     background-image: url("../images/headerBackground1.jpg");
     background-size: cover;
     background-position: center bottom;
-    box-sizing: border-box!important;
   }
   
 #landingHeader #headerContent {
