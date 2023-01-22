@@ -5,4 +5,4 @@
 <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
 <?php require 'scripts/utils.php'; ?>
 <?php require 'includes/sessionStart.php'; ?>
-<title>Gib-John Tutoring</title>
+<title>Gibjohn Tutoring</title>
