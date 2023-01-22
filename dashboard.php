@@ -10,7 +10,9 @@
     <!-- Connection -->
     <?php require 'scripts/connect.php'; ?>
 
-    <h1>Dashboard</h1>
+    <!-- Content -->
+    
+
 
     <!-- JS Bootstrap -->
     <?php require 'includes/bootstrapjs.php'; ?>

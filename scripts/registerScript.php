@@ -25,7 +25,7 @@
         
     } elseif(mysqli_num_rows($result) > 0) {
         session_start();
-        $_SESSION['registerUnameError'] = 'Username is Taken';
+        $_SESSION['registerUnameError'] = 'Username is taken';
         header('Location: ../register');
         exit();
     
