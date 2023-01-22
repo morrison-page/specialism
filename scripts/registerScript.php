@@ -19,11 +19,17 @@
     // Empy Feild Check
     if (empty($username) || empty($password)) {
         session_start();
-        $_SESSION['registerBlankError'] = 'Please fill in both feilds';
+        $_SESSION['registerBlankError'] = 'Please fill in all feilds';
         header('Location: ../register');
         exit();
         
-    } elseif(mysqli_num_rows($result) === 0) {
+    } elseif(mysqli_num_rows($result) > 0) {
+        session_start();
+        $_SESSION['registerUnameError'] = 'Username is Taken';
+        header('Location: ../register');
+        exit();
+    
+    } else {
         // Make Query and Execute
         $sql = "INSERT INTO users (username, password, admin) VALUES(?,?,0)";
         $sqlPrep = mysqli_prepare($conn, $sql);
@@ -35,6 +41,6 @@
         $_SESSION['username'] = $username;
         $_SESSION['loggedin'] = 1;
         header('Location: ../index');
-    };
+    }
 ?>
 
