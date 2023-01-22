@@ -8,7 +8,7 @@
 /* index.php - CSS */
 #landingHeader {
     height: 50vh;
-    background-image: url("../assets/images/headerBackground.jpg");
+    background-image: url("../images/headerBackground.jpg");
     background-size: cover;
     background-position: center bottom;
   }
