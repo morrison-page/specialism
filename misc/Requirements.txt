@@ -1,13 +1,10 @@
 Requirements
 
-- Book a Session (another page for viewing)
-- Resources (Quiz n shii)
-- Progress (Google Charts)
-- Support (Entry Feild for support msg)
 - Account Details and password and username change
 
 Completed
 
+- Progress/Dashboard (Google Charts)
 - Home Page
 - Contact us (Map, Name, email adress an message, adress)
 - Navbar
