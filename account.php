@@ -11,13 +11,12 @@
     <?php require 'scripts/connect.php'; ?>
 
     <!-- Content -->
-    <div class="container-fluid">
-        <form action="account" method="post" class="d-flex">
-            <button type="submit" value="details" class="btn btn-warning">Account Details</button>
-        </form>
-    </div>
+    <?php loginCheck(); ?>
 
 
+
+    <!-- Footer -->
+    <?php ; ?>
     <!-- JS Bootstrap -->
     <?php require 'includes/bootstrapjs.php'; ?>
 </body>

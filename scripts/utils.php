@@ -2,12 +2,12 @@
     // User Verification Functions
 
     function loginCheck() {
-        if($_SESSION['loggedin']===1) {
-            return 1; 
-        } elseif($_SESSION['loggedin']===0) {
-            return 0;
+        if (!isset($_SESSION['loggedin'])) {
+            header('location: login');
+        } elseif ($_SESSION['loggedin']===1) {
+            return 1;
         } else {
-            ('Location: login');
+            header('Location: login');
         };
     };
 
