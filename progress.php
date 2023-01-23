@@ -12,6 +12,7 @@
 
     <!-- Content -->
     <h1>Progress</h1>
+    <?php loginCheck(); ?>
 
     <!-- Footer -->
     <?php require 'includes/footer.php'; ?>
