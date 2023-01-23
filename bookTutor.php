@@ -12,7 +12,7 @@
 
     <!-- Content -->
     <h1>Book a Tutor</h1>
-    <?php loginCheck(); ?>
+    <?php loginCheck();?>
 
     <!-- Footer -->
     <?php require 'includes/footer.php'; ?>

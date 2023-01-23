@@ -11,7 +11,7 @@
     <?php require 'scripts/connect.php'; ?>
 
     <!-- Content -->
-    <?php loginCheck(); ?>
+    <?php loginCheck();?>
 
 
 

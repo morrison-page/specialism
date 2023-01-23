@@ -9,6 +9,8 @@
     <?php require 'includes/nav.php'; ?>
     <!-- Connection -->
     <?php require 'scripts/connect.php'; ?>
+    <!-- Login Check -->
+    <?php loginCheck();?>
 
     <!-- Content -->
     <div class="container-fluid">
