@@ -20,8 +20,13 @@
                     <table class="table">
                         <thead>
                             <tr>
-                                <th scope="col">User ID</th>
-                                <th scope="col">Username</th>
+                                <?php
+                                    // Chuck Data into table
+                                    while($row = mysqli_fetch_assoc($result)) {
+                                        echo '<tr> <td>' . $row['user_id'] . '</td>';
+                                        echo '<td>' . $row['username'] . '</td></tr>';
+                                    };
+                                ?>
                             </tr>
                         </thead>
                         <tbody>
@@ -37,22 +42,15 @@
                         </thead>
                         <tbody>
                             <?php
-                                // Grab value sent via URL
-                                $itemToEdit = $_GET['item'];
-
-                                // Craft SQL query to get Item
-                                $findItemToEditSQL = "SELECT * FROM products WHERE ProductID = $itemToEdit";
-                                $result = mysqli_query($conn, $findItemToEditSQL);
+                                require 'scripts/userDetails.php';
 
                                 while($row = mysqli_fetch_assoc($result)) {
                                     ?>
                                         <!-- Form to Change Data -->
                                         <form action="scripts/editData.php" method="post">
-                                        ProductID: <input type="number" name="productID" id="productID" value=<?php echo $row['ProductID']; ?>>    
-                                        ProductName: <input type="text" name="productName" id="productName" value=<?php echo $row['ProductName']; ?>>   
-                                        UnitPrice: <input type="number" name="unitPrice" id="unitPrice" value=<?php echo $row['UnitPrice']; ?>>    
-                                        UnitsInStock: <input type="number" name="unitsInStock" id="unitsInStock" value=<?php echo $row['UnitsInStock']; ?>>
-                                        <button type="submit" class="btn btn-primary">Edit Item</button>    
+                                            ProductID: <input type="number" name="productID" id="productID" value=<?php echo $row['ProductID']; ?>>    
+                                            ProductName: <input type="text" name="productName" id="productName" value=<?php echo $row['ProductName']; ?>>
+                                            <button type="submit" class="btn btn-primary">Edit Item</button>    
                                         </form>
 
                                     <?php
