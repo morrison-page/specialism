@@ -6,5 +6,4 @@
     unset($_SESSION['username']);
     unset($_SESSION['loginErrorMsg']);
     header('Location: ../index');
-    
 ?>
