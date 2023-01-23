@@ -3,6 +3,8 @@
 <head>
     <!-- Head -->
    <?php require 'includes/head.php'; ?>
+   <!-- Login Check -->
+   <?php loginCheck(); ?>
 </head>
 <body>
     <!-- Navbar -->
@@ -11,12 +13,10 @@
     <?php require 'scripts/connect.php'; ?>
 
     <!-- Content -->
-    <?php loginCheck();?>
-
-
+    
 
     <!-- Footer -->
-    <?php ; ?>
+    <?php require 'includes/footer.php'; ?>
     <!-- JS Bootstrap -->
     <?php require 'includes/bootstrapjs.php'; ?>
 </body>

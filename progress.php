@@ -3,6 +3,8 @@
 <head>
     <!-- Head -->
    <?php require 'includes/head.php'; ?>
+   <!-- Login Check -->
+   <?php loginCheck(); ?>
 </head>
 <body>
     <!-- Navbar -->
@@ -12,7 +14,7 @@
 
     <!-- Content -->
     <h1>Progress</h1>
-    <?php loginCheck(); ?>
+    
 
     <!-- Footer -->
     <?php require 'includes/footer.php'; ?>
