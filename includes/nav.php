@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" data-bs-theme="dark">
     
     <!-- Logo (Text for now) -->
-    <a class="navbar-brand" style="margin-left:15px;" href="index">Gibjohn</a>
+    <a class="navbar-brand" style="margin-left:15px;" href="index">Health Advice</a>
     
     <!-- Phone Level of Display -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,11 +12,11 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="index">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="bookTutor">Book Tutor</a></li>
-            <li class="nav-item"><a class="nav-link" href="resources">Resource</a></li>
-            <li class="nav-item"><a class="nav-link" href="progress">Progress</a></li>
-            <li class="nav-item"><a class="nav-link" href="rewards">Rewards</a></li>
-            <li class="nav-item"><a class="nav-link" href="support">Support</a></li>
+            <?php
+                // if (loginCheck()===1) {
+                //     echo '<li class="nav-item"><a class="nav-link" href="advice">Advice</a></li>';
+                // };
+            ?>
             <li class="nav-item"><a class="nav-link" href="about">About</a></li>
             <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
             <li class="nav-item"><a class="nav-link" href="sessionCheck">Session Check</a></li>

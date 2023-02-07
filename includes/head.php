@@ -6,4 +6,4 @@
 <link rel="shortcut icon" href="misc/gibjohn.ico" type="image/x-icon">
 <?php require 'scripts/utils.php'; ?>
 <?php require 'includes/sessionStart.php'; ?>
-<title>Gibjohn Tutoring</title>
+<title>Health Advice</title>

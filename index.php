@@ -14,7 +14,7 @@
     <div class="container-fluid d-flex align-items-center mb-5" id="landingHeader">
         <div class="container rounded p-5" id="headerContent">
             <div class="row">
-                <h1>Welcome to Gibjohn!</h1>
+                <h1>Welcome to Health Advice!</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum cumque illo dolorum similique itaque laborum voluptatem natus modi ex in.</p>
             </div>
             <div class="row">
