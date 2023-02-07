@@ -13,10 +13,10 @@
     <!-- Content -->
     <div class="container-fluid">
         <div class="container d-flex justify-content-center" style="margin-top:15%;">
-            <h1>Page Does not Exist - 404 Error</h1>
+            <h1>You Do not have permission/Forbidden - 401/403 Error</h1>
         </div>
     </div>
-    
+
     <!-- Footer -->
     <?php require 'includes/footer.php'; ?>
 

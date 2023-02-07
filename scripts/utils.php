@@ -18,10 +18,9 @@
             header('Location: index');
         } else {
             header('Location: index');
-        }
+        };
     };
-
-
+    
     // Quiz Functions
 
     function getQuestions() {
